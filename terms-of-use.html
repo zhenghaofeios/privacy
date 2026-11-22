@@ -78,6 +78,16 @@ h1 { margin: 0; font-size: clamp(42px, 8vw, 78px); line-height: .98; letter-spac
 .document-footer { margin-top: 28px; padding: 20px 4px; color: var(--ink-3); font-size: 12px; line-height: 1.7; }
 .document-footer a { color: var(--accent); }
 .site-footer { display: flex; justify-content: space-between; gap: 20px; width: min(1120px, calc(100% - 40px)); margin: 0 auto; padding: 28px 0 40px; color: var(--ink-3); font-size: 10.5px; }
+.support-panel { margin-top: 32px; padding: 28px; border: 1px solid rgba(255,255,255,.82); border-radius: var(--radius); background: rgba(255,255,255,.9); box-shadow: 0 14px 34px rgba(35,38,47,.055); }
+.support-kicker { display: block; margin-bottom: 8px; color: var(--accent); font-size: 10px; font-weight: 800; letter-spacing: .14em; }
+.support-panel h2 { margin: 0 0 10px; font-size: 24px; letter-spacing: -.025em; }
+.support-panel p { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.8; }
+.support-email { display: inline-block; margin-top: 18px; color: var(--accent); font-size: 15px; font-weight: 700; text-decoration: none; }
+.support-action { display: inline-flex; min-height: 46px; align-items: center; margin-left: 14px; padding: 0 16px; border-radius: 13px; color: #fff; background: var(--accent); font-size: 13px; font-weight: 700; text-decoration: none; }
+.support-faq { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 18px; }
+.support-item { padding: 22px; border: 1px solid rgba(255,255,255,.76); border-radius: 19px; background: rgba(255,255,255,.76); }
+.support-item h2 { margin: 0 0 9px; font-size: 16px; letter-spacing: -.01em; }
+.support-item p { margin: 0; color: var(--ink-2); font-size: 13px; line-height: 1.75; }
 @media (max-width: 720px) {
   .site-header { width: calc(100% - 24px); padding: 12px 0; }
   main { width: calc(100% - 24px); }
@@ -98,6 +108,7 @@ h1 { margin: 0; font-size: clamp(42px, 8vw, 78px); line-height: .98; letter-spac
     <nav aria-label="法律文档导航">
       <a class="" href="privacy-policy.html">隐私政策</a>
       <a class="active" href="terms-of-use.html">用户协议</a>
+      <a class="" href="support.html">支持</a>
     </nav>
   </header>
   <main class="document">
